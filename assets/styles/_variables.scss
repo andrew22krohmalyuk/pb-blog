@@ -1,0 +1,87 @@
+@import "mixins";
+
+//colors
+$white: #fff;
+$black: #000;
+$light-black: #161616;
+$speech-blue: #3a47c5;
+$speech-blue-light: $speech-blue + 10;
+$atlantis: #85c63f;
+$cornflowerblue: cornflowerblue;
+$atlantis-light: $atlantis + 10;
+$sushi: #76a841;
+$mantis: #81BA44;
+$whisper: #eee;
+$indigo: #5100c5;
+$night-rider: #2d2d2d;
+$gun-powder: #4a4a4a;
+$nobel: #9b9b9b;
+$lucky-point: #202F5B;
+$lucky-point-light: $lucky-point + 10;
+$payne: #474748;
+$grenadier: #C34C39;
+$ghost-white: #F3F4FC;
+$portage: #959EE5;
+$light-grey: #CACACA;
+$darkseagreen: #7cba9d;
+$yellowgreen: #8dd746;
+$dimgray: #5b5a5d;
+$pink-swan: #b4b4b4;
+$whitesmoke: #f3f4f5;
+$ghost-white: #F3F2FD;
+$matisse: #355977;
+$persian-blue: #352DDE;
+$persian-red: #c0392b;
+$flower-blue: #61aad1;
+$yellowgreen: #80c552;
+$nero: #181818;
+$dark-grey: #adadad;
+$apple-blossom: #B05656;
+$lima: #74CC1E;
+$han-purple: #4800E3;
+$corn-flower: #438AE3;
+$pastel-green: #62de63;
+$indigo-blue-dark: #320092;
+$lime-green: #78d416;
+$picton-blue: #53a4dc;
+$medium-blue: #0b0bbc;
+$summer-sky: #30ADDB;
+$royal-blue: #5B68E5;
+$picton-blue:#6699CC;
+$viking: #60acc2;
+$atlantis: #96ca52;
+$mariner: #485b92;
+$puerto-rico: #54b4a6;
+$free-speech-blue: #4B4BC8;
+$charcoal: #464545;
+$cararra: #EAE6D3;
+$tory-blue: #2C3E97;
+$royal: #4278DA;
+$alabaster: #f0efea;
+$mediumpurple : #7e74c4;
+$lavender: #dde5f4;
+$teal: #004b7e;
+
+
+$animation-bezier: cubic-bezier(.68,1.12,.8,.92);
+
+$gradient-box: linear-gradient(45deg, $lime-green 0%, $picton-blue 50%, $medium-blue 100%);
+$gradient-box-180deg: linear-gradient(180deg, $yellowgreen 0%, $picton-blue 50%, $medium-blue 100%);
+$gradient-mariner-to-puerto: linear-gradient(to right, $mariner -20%, $puerto-rico 100%);
+$gradient-blue-to-green: linear-gradient(to right, $han-purple 0%, $corn-flower 50%, $pastel-green 120%);
+$gradient-royal-to-tory: linear-gradient(to right, $royal 0%, $tory-blue 100%);
+
+//main-menu
+$box-shadow-gray: #c6c6c5;
+$request-btn-hover: $atlantis;
+
+//variables
+$container-width: 1100px;
+$text-shadow: 0px 2px 0px rgba(0, 0, 0, .2);
+
+//fonts
+$Roboto: 'Roboto', Arial, sans-serif;
+$Moon: 'Moon', Arial, sans-serif;
+
+$s-font: $Moon;
+$m-font: $Roboto;

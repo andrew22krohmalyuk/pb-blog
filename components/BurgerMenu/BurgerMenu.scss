@@ -1,0 +1,59 @@
+@import "../../assets/styles/index";
+
+.Header {
+  &__burger {
+    @include button-reset();
+
+    outline: none;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@include mq(md) {
+  .Header {
+
+    &__burger-line {
+      transition: transform .1s ease-out;
+    }
+
+    &__burger {
+      &--active {
+        .Header__burger-line {
+          &:first-child {
+            transform: rotate(45deg);
+            transform-origin: 7%;
+          }
+          &:nth-child(2) {
+            opacity: 0;
+          }
+          &:last-child {
+            transform: rotate(-45deg);
+            transform-origin: 5%;
+          }
+        }
+
+        position: relative;
+        left: 5px;
+      }
+    }
+
+    &__burger-line {
+      background: $gun-powder;
+      width: 25px;
+      height: 3px;
+      border-radius: 3px;
+
+      &:first-child {
+        position: relative;
+        top: -5px;
+      }
+
+      &:last-child {
+        position: relative;
+        top: 5px;
+      }
+    }
+  }
+}
+
